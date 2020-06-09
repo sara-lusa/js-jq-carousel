@@ -61,12 +61,16 @@ img {
 .prev {
   left: -5%;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .nav {
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    padding: 20px;
+    padding: 12px;
     border-radius: 999px;
     background: lightblue;
     color: grey;
@@ -79,23 +83,21 @@ img {
     color: darkgrey;
 }
 
-.nav > i:last-child {
-  position: absolute;
-  right: -22%;
-  top: 27%;
+.info-icon i {
   text-align: left;
   font-size: 23px;
   color: darkgrey;
+  margin-left: 7px;
 }
 
-.nav > i:last-child:hover {
+.info-icon i:hover {
   color: grey;
 }
 
 .info {
   position: absolute;
-  bottom: -7%;
-  right: 10%;
+  right: 60px;
+  bottom: -6%;
   border: 1px solid black;
   padding: 6px;
   display: none;

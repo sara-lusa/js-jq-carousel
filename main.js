@@ -15,7 +15,7 @@ $(document).ready(
       }
     );
 
-    $('.nav > i:last-child').click(
+    $('.info-icon i').click(
       function() {
 
         if ( $('.info').hasClass('info-block') ) {
