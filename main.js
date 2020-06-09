@@ -15,6 +15,18 @@ $(document).ready(
       }
     );
 
+    $('.nav > i:last-child').click(
+      function() {
+
+        if ( $('.info').hasClass('info-block') ) {
+          $('.info').removeClass('info-block');
+        }
+        else {
+          $('.info').addClass('info-block');
+        }
+
+      }
+    );
 
   }
 );

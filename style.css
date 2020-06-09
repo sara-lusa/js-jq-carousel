@@ -88,15 +88,19 @@ img {
   color: darkgrey;
 }
 
-.nav > i:last-child:hover .info {
-  display: block;
+.nav > i:last-child:hover {
+  color: grey;
 }
 
 .info {
   position: absolute;
-  bottom: -11%;
+  bottom: -7%;
   right: 10%;
   border: 1px solid black;
   padding: 6px;
   display: none;
+}
+
+.info-block {
+  display: block;
 }
